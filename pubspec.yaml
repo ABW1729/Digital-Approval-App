@@ -1,0 +1,33 @@
+name: digirakshak
+description: A fraud detection alert app
+publish_to: 'none' # Remove this line if publishing
+
+environment:
+  sdk: '^3.8.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  another_telephony: ^0.4.1
+  flutter_tts: ^4.2.2
+  http: ^1.4.0
+  device_info_plus: ^11.4.0
+  flutter_windowmanager_plus: ^1.0.1    # For screen recording
+  vpn_connection_detector: ^1.0.7
+  qr_code_scanner_plus: ^2.0.10        # VPN/Proxy detection
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  local_auth: ^2.1.6
+  flutter_root_checker: ^1.0.0
+  location: ^5.0.3
+  connectivity_plus: ^6.0.1
+  platform_device_id: ^1.0.1
+  geolocator: ^11.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

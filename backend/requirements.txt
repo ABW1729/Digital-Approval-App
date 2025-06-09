@@ -1,0 +1,27 @@
+fastapi
+uvicorn[standard]
+pydantic
+requests
+
+# For CORS middleware
+python-multipart
+starlette
+
+# For PostgreSQL
+databases[postgresql]
+asyncpg
+sqlalchemy
+
+# For OTP/email handling (optional)
+email-validator
+
+# For Kafka
+kafka-python
+
+# For ML model service
+scikit-learn
+pandas
+numpy
+shap
+joblib
+
