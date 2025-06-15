@@ -1,16 +1,92 @@
-# digirakshak
+# 📲 Digital Approval System
 
-A new Flutter project.
+A full-featured **Flutter mobile application** designed to digitize and streamline institutional approval workflows. Built for Android with real-time updates, request tracking, and dynamic multi-level approval logic to support both academic and administrative processes.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ Multi-level approval system (dynamic routing)
+- 🔄 Real-time updates and communication via **Socket.IO**
+- 📦 Backend integration with **PostgreSQL**
+- 🔔 Status tracking and notifications
+- 🧑‍💼 Role-based request visibility (admin, faculty, staff)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+| Layer       | Tech                             |
+|-------------|----------------------------------|
+| Frontend    | Flutter                          |
+| Backend     | Node.js + Express                |
+| Database    | PostgreSQL                       |
+| Real-time   | Socket.IO                        |
+
+---
+
+## 📦 Dependencies (Flutter)
+
+Add these to your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  provider: ^6.1.1
+  socket_io_client: ^2.0.3+1
+  flutter_local_notifications: ^15.1.0
+  shared_preferences: ^2.2.2
+  fluttertoast: ^8.2.4
+```
+
+You may also include:
+
+```yaml
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+```
+
+---
+
+## 🧑‍💻 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/digital-approval-system.git
+cd digital-approval-system
+```
+
+### 2. Install dependencies
+
+```bash
+flutter pub get
+```
+
+### 3. Run the app
+
+```bash
+flutter run
+```
+
+> Make sure an Android device/emulator is connected.
+
+---
+
+## ⚙️ Backend Setup (Optional)
+
+If you're setting up the backend yourself:
+
+- Use Node.js + Express server
+- Connect to PostgreSQL
+- Configure Socket.IO server-side to handle real-time events
+
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
