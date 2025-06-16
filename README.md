@@ -74,15 +74,6 @@ flutter run
 
 > Make sure an Android device/emulator is connected.
 
----
-
-## ⚙️ Backend Setup (Optional)
-
-If you're setting up the backend yourself:
-
-- Use Node.js + Express server
-- Connect to PostgreSQL
-- Configure Socket.IO server-side to handle real-time events
 
 
 ---
